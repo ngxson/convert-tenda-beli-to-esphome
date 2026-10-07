@@ -1,0 +1,2 @@
+# Host-side provisioning helper; proxy and offline unit tests use stdlib only.
+PyYAML>=6.0,<7

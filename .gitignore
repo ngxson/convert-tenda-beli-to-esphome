@@ -1,0 +1,45 @@
+# Local credentials and per-device overrides
+.env
+.env.*
+*.env
+**/secrets.yaml
+**/secrets.*.yaml
+!**/secrets.example.yaml
+esphome/devices/
+*.pem
+*.key
+
+# Private captures, stock dumps, and scratch work
+/tmp/
+/logs/
+/captures/
+/dump/
+/private/
+*.log
+*.jsonl
+*.pcap
+*.pcapng
+*.zip
+*.apk
+
+# Firmware embeds Wi-Fi and API credentials, including generated source
+.pio/
+.pio_cache/
+.esphome/
+*.bin
+*.uf2
+*.elf
+*.map
+*.hex
+*.o
+*.a
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/

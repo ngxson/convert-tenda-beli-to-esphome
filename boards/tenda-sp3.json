@@ -1,0 +1,24 @@
+{
+  "_base": [
+    "generic",
+    "realtek-ambz",
+    "realtek-ambz-1mb-468k",
+    "realtek-ambz-bx",
+    "ic/rtl8710bn"
+  ],
+  "build": {
+    "mcu": "rtl8710bx",
+    "variant": "generic-rtl8710bx-4mb-980k"
+  },
+  "name": "Tenda Beli SP9",
+  "symbol": "BELI-SP9",
+  "url": "https://www.tendacn.com/au/product/sp9.html",
+  "vendor": "Tenda",
+  "doc": {
+    "extra": [
+      "## Compatibility",
+      "Custom 1 MiB / two 468 KiB application-slot layout for the tested Tenda Beli SP9 V1.0 (RTL8710BX).",
+      "Relay PA12/GPIO12 active high is verified on the tested SP9. PA18/GPIO18 provides a load-correlated pulse signal used for a provisional power estimate calibrated at 4.1 W only. Meter IC, cross-load accuracy, LED and button pins remain unverified. Do not enable an all-pins output sweep."
+    ]
+  }
+}
